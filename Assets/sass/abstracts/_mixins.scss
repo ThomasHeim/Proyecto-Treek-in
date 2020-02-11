@@ -1,0 +1,168 @@
+/*Tipografias*/
+
+/*Raleway-Regular*/
+@mixin raleway-regular-5xl {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $xxxxx-large;
+}
+
+@mixin raleway-regular-4xl {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $xxxx-large;
+}
+
+@mixin raleway-regular-3xl {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $xxx-large;
+}
+
+@mixin raleway-regular-2xl {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $xx-large;
+}
+
+@mixin raleway-regular-xl {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $x-large;
+}
+
+@mixin raleway-regular-l {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $large;
+}
+
+@mixin raleway-regular-m {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $large;
+}
+
+@mixin raleway-regular-s {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $large;
+}
+
+@mixin raleway-regular-xs {
+    font-family: $raleway;
+    font-weight: $font-regular;
+    font-size: $large;
+}
+
+
+/*raleway-bold*/
+@mixin raleway-bold-5xl {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $xxxxx-large;
+}
+
+@mixin raleway-bold-4xl {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $xxxx-large;
+}
+
+@mixin raleway-bold-3xl {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $xxx-large;
+}
+
+@mixin raleway-bold-2xl {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $xx-large;
+}
+
+@mixin raleway-bold-xl {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $x-large;
+}
+
+@mixin raleway-bold-l {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $large;
+}
+
+@mixin raleway-bold-m {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $medium;
+}
+
+@mixin raleway-bold-s {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $small;
+}
+
+@mixin raleway-bold-xs {
+    font-family: $raleway;
+    font-weight: $font-bold;
+    font-size: $x-small;
+}
+
+
+/*open-sans*/
+@mixin open-sans-regular-5xl {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $xxxxx-large;
+}
+
+@mixin open-sans-regular-4xl {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $xxxx-large;
+}
+
+@mixin open-sans-regular-3xl {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $xxx-large;
+}
+
+@mixin open-sans-regular-2xl {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $xx-large;
+}
+
+@mixin open-sans-regular-xl {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $x-large;
+}
+
+@mixin open-sans-regular-l {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $large;
+}
+
+@mixin open-sans-regular-m {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $medium;
+}
+
+@mixin open-sans-regular-s {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $small;
+}
+
+@mixin open-sans-regular-xs {
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $x-small;
+}

@@ -1,0 +1,47 @@
+header{
+    margin-top: 15%;
+}
+
+.header__texto{
+    padding: 0 10%;
+}
+
+.header__img-container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    &__img{
+        position: absolute;
+        width: 150%
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    header{
+        margin-top: 5%;
+    }
+    .header__texto-container{
+        margin-bottom: 20%;
+    }
+    .header__img-container__img{
+        width: 100%;
+        top: -350px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    header{
+        margin-top: 7%;
+    }
+    .header__texto-container{
+        margin-bottom: 0%;
+    }
+
+    .header__img-container__img{
+        width: 100%;
+        top: -300px;
+    }
+}

@@ -1,0 +1,17 @@
+h1{
+    @include raleway-bold-4xl;
+    line-height: 4.5rem;
+}
+
+h2{
+    @include raleway-bold-2xl;
+}
+
+h3{
+    @include raleway-bold-l;
+}
+
+p{
+    @include open-sans-regular-m;
+    line-height: 2rem;
+}
