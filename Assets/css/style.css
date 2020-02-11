@@ -28,6 +28,10 @@
 /*Raleway-Regular*/
 /*raleway-bold*/
 /*open-sans*/
+html {
+  scroll-behavior: smooth;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -157,7 +161,7 @@ button {
 .topnav {
   background-color: #FFF;
   overflow: hidden;
-  padding: 0% 5%;
+  padding: 2% 5% 0% 5%;
 }
 
 /* Style the links inside the navigation bar */
@@ -540,6 +544,7 @@ header {
 }
 main {
   margin: 0% 10%;
+  margin-bottom: 30%;
 }
 
 .main__contenedor {
@@ -649,12 +654,21 @@ footer {
     margin: 0% 5%;
   }
 }
-.precios {
-  padding: 80% 0% 0% 0%;
+.adorno__precios {
   background-image: url(../img/bg-price.svg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: top;
+  background-size: 100%;
+  height: 100px;
+}
+
+.precios {
+  padding: 0% 0% 0% 0%;
+  background-color: #333745;
+  /*background-image: url(../img/bg-price.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;*/
 }
 .precios__contenedor-card {
   background-color: #FFF;
@@ -718,8 +732,16 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .adorno__precios {
+    background-image: url(../img/bg-price.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    height: 250px;
+  }
+
   .precios {
-    padding: 25% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
   }
 
   .precios__contenedor-card__descripcion {
@@ -737,7 +759,7 @@ footer {
 }
 @media (min-width: 992px) {
   .precios {
-    padding: 15% 0% 0% 0%;
+    padding: 2% 0% 0% 0%;
   }
 
   .precios__contenedor-card__descripcion {

@@ -1,9 +1,17 @@
-.precios{
-    padding:80% 0% 0% 0%;
+.adorno__precios{
     background-image: url(../img/bg-price.svg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: top;
+    background-size: 100%;
+    height: 100px;
+}
+.precios{
+    padding:0% 0% 0% 0%;
+    background-color: $oscuro-dark;
+    /*background-image: url(../img/bg-price.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;*/
 
 
     &__contenedor-card{
@@ -82,8 +90,15 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    .adorno__precios{
+        background-image: url(../img/bg-price.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+        height: 250px;
+    }
     .precios{
-        padding:25% 0% 0% 0%;
+        padding:0% 0% 0% 0%;
     }
 
     .precios__contenedor-card{
@@ -107,7 +122,7 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     .precios{
-        padding:15% 0% 0% 0%;
+        padding:2% 0% 0% 0%;
     }
 
     .precios__contenedor-card{
