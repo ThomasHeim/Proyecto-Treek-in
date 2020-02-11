@@ -40,12 +40,14 @@
             <h2 class="main__contenedor-titulo">Características</h2>
         </div>
         <div class="main__contenido row">
-            <div class="col-md-3"></div>
-            <div class="main__contenido-grafica col-12 col-md-2">
-                <img class="main__contenido-grafica__elemento" src="Assets/img/bar-graph.svg" alt="">
+            <div class="col-md-2 col-lg-2"></div>
+            <div class="main__contenido-grafica col-12 col-md-4 col-lg-3">
+                <div class="animation-element">
+                    <img class="main__contenido-grafica__elemento" src="Assets/img/bar-graph.svg" alt="">
+                </div>
             </div>
             <div class="col-md-1"></div>
-            <div class="main__contenido-texto col-12 col-md-3">
+            <div class="main__contenido-texto col-12 col-md-4 col-lg-4">
                 <h3>Estadísticas de tu progreso</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsum quibusdam odio dignissimos nisi corrupti nihil, neque distinctio dicta sapiente officiis, delectus tempore harum earum culpa modi!</p>
             </div>
@@ -53,12 +55,65 @@
     </main>
     <section class="precios">
         <div class="precios__contenedor">
-            
+            <div class="row">
+                <div class="precios__contenedor-titulo col-12">
+                    <h2 class="precios__contenedor-titulo__texto">Precios</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="precios__contenedor-card col-12 col-md-5 col-lg-4">
+                    <div class="precios__contenedor-card__descripcion">
+                        <h3 class="precios__contenedor-card__descripcion-titulo">Trekk-in Free</h3>
+                        <h2 class="precios__contenedor-card__descripcion-precio">$0 / mes</h2>
+                    </div>
+                    <div class="precios__contenedor-card__lista">
+                        <ul>
+                            <li>Ver mapas creados por otros usuarios</li>
+                            <li>Conectar con otros usuarios</li>
+                        </ul>
+                    </div>
+                    <div class="precios__contenedor-card__botonera">
+                        <button class="boton__primario-large">Obten free</button>
+                    </div>
+                </div>
+
+
+                <div class="precios__contenedor-card col-12 col-md-5 col-lg-4">
+                    <div class="precios__contenedor-card__descripcion-premium">
+                        <h3 class="precios__contenedor-card__descripcion-titulo">Trekk-in Premium</h3>
+                        <h2 class="precios__contenedor-card__descripcion-precio">$3500 / mes</h2>
+                    </div>
+                    <div class="precios__contenedor-card__lista-premium">
+                        <ul>
+                            <li>Ver mapas creados por otros usuarios</li>
+                            <li>Conectar con otros usuarios</li>
+                            <li>Definir mejores rutas</li>
+                            <li>Mapas Offline</li>
+                            <li>Integración con otras aplicaciones</li>
+                        </ul>
+                    </div>
+                    <div class="precios__contenedor-card__botonera">
+                        <button class="boton__primario-large">Obten free</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
-    <footer></footer>
+    <footer>
+        <div class="footer__container row">
+            <div class="footer__lista col-12 col-md-6">
+                <p class="footer__texto">Legal</p>
+                <p class="footer__texto">Cookies</p>
+                <p class="footer__texto">Sobre anuncios</p>
+            </div>
+            <div class="footer__trademark col-12 col-md-6">
+                <p class="footer__texto">© 2018 treek-in SPA.</p>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-    <script src="Assets/js/menu.js" crossorigin="anonymous"></script>
+    <script src="Assets/js/animate.js"></script>
 </body>
 </html>

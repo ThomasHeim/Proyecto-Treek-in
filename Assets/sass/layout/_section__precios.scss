@@ -1,7 +1,133 @@
-.precios__contenedor{
-    background-image: url(../../img/bg-price.svg);
-    background-position: center;
+.precios{
+    padding:80% 0% 0% 0%;
+    background-image: url(../img/bg-price.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    background-position: top;
+
+
+    &__contenedor-card{
+        background-color: $claro-light;
+        border: solid $claro-dark 1px;
+        display: flex;
+        flex-direction: column;
+        margin: 10%
+    }
+}
+
+.precios__contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    
+    &__texto{
+        color: $claro-light;
+    }
+}
+
+.precios__contenedor-card{
+    &__descripcion{
+        padding: 15% 5% 10% 5%;
+        margin: 0% 5%;
+        height: 75px;
+        border-bottom: solid $claro-dark 2px;
+    }
+
+    &__descripcion-premium{
+        padding: 15% 5% 20% 5%;
+        margin: 0% 5%;
+        height: 75px;
+        border-bottom: solid $claro-dark 2px; 
+    }
+
+    &__descripcion-titulo{
+        margin-bottom: 5%;
+    }
+
+    &__lista{
+        padding:10% 10% 50% 10%;
+        margin: 0% 5%;
+        border-bottom: solid $claro-dark 2px;
+    }
+
+    &__lista-premium{
+        padding:10% 10% 5% 10%;
+        margin: 0% 5%;
+        border-bottom: solid $claro-dark 2px;
+    }
+
+    &__lista ul{
+        list-style-type: square;
+    }
+
+    &__lista-premium ul{
+        list-style-type: square;
+    }
+
+    &__lista li{
+        margin-bottom: 15px;
+    }
+
+    &__lista-premium li{
+        margin-bottom: 15px;
+    }
+
+    &__botonera{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0% 5%;
+        padding: 10% 0%
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .precios{
+        padding:25% 0% 0% 0%;
+    }
+
+    .precios__contenedor-card{
+        &__descripcion{
+            padding: 15% 5% 20% 5%;
+            margin: 0% 5%;
+            height: 75px;
+            border-bottom: solid $claro-dark 2px;
+        }
+
+        &__lista{
+            padding:10% 10% 80% 10%;
+        }
+
+        &__lista-premium{
+            padding:10% 10% 26% 10%;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .precios{
+        padding:15% 0% 0% 0%;
+    }
+
+    .precios__contenedor-card{
+        &__descripcion{
+            padding: 15% 5% 5% 5%;
+            margin: 0% 5%;
+            height: 75px;
+            border-bottom: solid $claro-dark 2px;
+        }
+
+        &__descripcion-premium{
+            padding: 15% 5% 5% 5%; 
+        }
+
+        &__lista{
+            padding:10% 10% 34% 10%;
+        }
+
+        &__lista-premium{
+            padding:10% 10% 5% 10%;
+        }
+    }
 }

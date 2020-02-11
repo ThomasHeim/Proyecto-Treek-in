@@ -15,3 +15,27 @@ p{
     @include open-sans-regular-m;
     line-height: 2rem;
 }
+
+li{
+    @include open-sans-regular-m;
+    line-height: 1.5rem;
+}
+
+.precios__contenedor-card__descripcion{
+    
+    &-titulo{
+    @include open-sans-regular-l
+    }
+
+    &-precio{
+        @include raleway-bold-3xl
+    }
+}
+
+button{
+    @include raleway-bold-s
+}
+
+.footer__texto{
+    @include open-sans-regular-xs
+}
