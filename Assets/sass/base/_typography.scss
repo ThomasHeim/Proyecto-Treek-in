@@ -1,3 +1,8 @@
+.topnav{
+    a{
+        @include raleway-regular-s
+    }
+}
 h1{
     @include raleway-bold-4xl;
     line-height: 4.5rem;
@@ -28,12 +33,16 @@ li{
     }
 
     &-precio{
-        @include raleway-bold-3xl
+    @include raleway-bold-3xl
     }
 }
 
 button{
     @include raleway-bold-s
+}
+
+.boton__transparente-regular{
+    @include open-sans-regular-s
 }
 
 .footer__texto{

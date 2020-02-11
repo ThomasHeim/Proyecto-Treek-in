@@ -16,15 +16,20 @@
     <nav>
         <div class="topnav" id="myTopnav">
             <a href="#home" class="active"><img src="Assets/img/Logo.svg" alt="logo treek-in"></a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a class="topnav_menu-item" href="#acerca">Acerca de</a>
+            <a class="topnav_menu-item" href="#caracteristicas">Características</a>
+            <a class="topnav_menu-item" href="#precios">Precios</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars fa-3x"></i>
-            </a>    
+            </a>  
+            <div class="topnav__botonera">
+                <button class="boton__transparente-regular">Iniciar Sesión</button>
+                <button class="boton__primario-regular">Regístrate</button>
+            </div>  
         </div>
+      
     </nav>
-    <header>
+    <header id="acerca">
         <div class="row header__texto-container">
             <div class="header__texto col-12 col-md-4">
                 <h1>Haz Trekking sin parar</h1>
@@ -37,7 +42,7 @@
     </header>
     <main>
         <div class="main__contenedor">
-            <h2 class="main__contenedor-titulo">Características</h2>
+            <h2 class="main__contenedor-titulo" id="caracteristicas">Características</h2>
         </div>
         <div class="main__contenido row">
             <div class="col-md-2 col-lg-2"></div>
@@ -57,7 +62,7 @@
         <div class="precios__contenedor">
             <div class="row">
                 <div class="precios__contenedor-titulo col-12">
-                    <h2 class="precios__contenedor-titulo__texto">Precios</h2>
+                    <h2 class="precios__contenedor-titulo__texto" id="precios">Precios</h2>
                 </div>
             </div>
             <div class="row">
@@ -115,5 +120,6 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="Assets/js/animate.js"></script>
+    <script src="Assets/js/menu.js"></script>
 </body>
 </html>

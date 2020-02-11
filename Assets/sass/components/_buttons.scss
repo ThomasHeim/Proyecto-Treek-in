@@ -2,7 +2,7 @@
     background-color:$primario-dark;
     border: none;
     color: white;
-    padding: 10px 24px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -36,6 +36,26 @@
     &:hover{
         background-color: $primario-mid;
     }
+  }
+
+  .boton__transparente-regular{
+    background-color:transparent;
+    border: none;
+    color: $negro-dark;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    &:hover{
+        color: $primario-dark;
+    }
+
+    &:focus{
+        color: $oscuro-mid;
+    }
+    
   }
 
   

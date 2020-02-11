@@ -76,6 +76,12 @@ button {
   cursor: pointer;
 }
 
+.topnav a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -126,6 +132,12 @@ button {
   font-size: 0.875rem;
 }
 
+.boton__transparente-regular {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
 .footer__texto {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -133,9 +145,19 @@ button {
 }
 
 /* Add a black background color to the top navigation */
+.topnav_menu-item {
+  padding-top: 30px !important;
+}
+
+.topnav__botonera {
+  float: right;
+  padding-top: 30px;
+}
+
 .topnav {
   background-color: #FFF;
   overflow: hidden;
+  padding: 0% 5%;
 }
 
 /* Style the links inside the navigation bar */
@@ -168,6 +190,10 @@ button {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+  .topnav__botonera {
+    display: none;
   }
 }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -485,6 +511,10 @@ header {
     margin-top: 5%;
   }
 
+  .header__texto {
+    padding-left: 19%;
+  }
+
   .header__texto-container {
     margin-bottom: 20%;
   }
@@ -730,7 +760,7 @@ footer {
   background-color: #2AB7CA;
   border: none;
   color: white;
-  padding: 10px 24px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -759,6 +789,23 @@ footer {
 }
 .boton__primario-large:hover {
   background-color: #77D1DD;
+}
+
+.boton__transparente-regular {
+  background-color: transparent;
+  border: none;
+  color: #221D23;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.boton__transparente-regular:hover {
+  color: #2AB7CA;
+}
+.boton__transparente-regular:focus {
+  color: #8f9199;
 }
 
 /*# sourceMappingURL=style.css.map */
